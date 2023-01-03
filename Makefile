@@ -3,3 +3,6 @@ run:
 
 test:
 	go test -v ./...
+
+test_coverage:
+	go test -cover ./...
